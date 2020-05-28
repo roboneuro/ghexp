@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run sh
-        run: sh ./try.sh
+        run: sh try.sh
         env:
           ROOT_DIR: $GITHUB_WORKSPACE
