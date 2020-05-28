@@ -1,1 +1,1 @@
-echo ${{ env.ROOT_DIR }} 
+echo $ROOT_DIR
