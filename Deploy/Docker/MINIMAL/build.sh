@@ -39,3 +39,4 @@ docker build -t $USERNAME/$IMAGE:$version -t $USERNAME/$IMAGE:latest --build-arg
 echo $DOCKER_PASSWORD | docker login --username $DOCKER_USERNAME --password-stdin
 docker push $USERNAME/$IMAGE:latest
 docker push $USERNAME/$IMAGE:$version
+docker logout
