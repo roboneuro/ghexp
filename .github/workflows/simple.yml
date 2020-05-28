@@ -9,4 +9,4 @@ jobs:
       - name: Run sh
         run: sh try.sh
         env:
-          ROOT_DIR: ${GITHUB_WORKSPACE}
+          ROOT_DIR: ${{github.workspace}}
