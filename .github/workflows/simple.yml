@@ -10,4 +10,4 @@ jobs:
         run: sh try.sh
         env:
           ROOT_DIR: ${{github.workspace}}
-          lele: ${{env.lele}}
+          lele: ${{secrets.lele}}
